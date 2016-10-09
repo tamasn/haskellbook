@@ -2,8 +2,9 @@ module Main where
 
 import ListBenchmark as LB
 import ProfilingTime as PT
+import ProfilingHeap as PH
 
 main :: IO()
-main = PT.mainFg
+main = PH.mainHeap
 
 
