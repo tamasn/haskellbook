@@ -1,7 +1,8 @@
 module Main where
 
 --import MapTest
-import SetTest
+--import SetTest
+import SeqTest
 
 main :: IO ()
-main = mainSet
+main = mainSeq2
