@@ -1,6 +1,9 @@
 module Main where
 
-import Lib
+import ListBenchmark as LB
+import ProfilingTime as PT
 
-main :: IO ()
-main = someFunc
+main :: IO()
+main = PT.mainFg
+
+
