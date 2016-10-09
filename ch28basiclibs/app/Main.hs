@@ -1,6 +1,7 @@
 module Main where
 
-import Lib
+--import MapTest
+import SetTest
 
 main :: IO ()
-main = someFunc
+main = mainSet
